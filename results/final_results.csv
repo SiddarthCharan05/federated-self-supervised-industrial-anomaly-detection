@@ -1,0 +1,8 @@
+Method,Image AUROC,Pixel AUROC,Rounds,Communication
+Stage 1 - Global ResNet18,0.993651,N/A,0,N/A
+Stage 2 - PatchCore-style,1.000000,0.982266,0,N/A
+Stage 3 - Residual Adapter,1.000000,0.982275,0,N/A
+Stage 4 - Independent IID Clients,0.997619 ± 0.001296,0.981931 ± 0.000056,0,N/A
+Stage 5 - IID FedAvg,0.997619 ± 0.001296,0.981983 ± 0.000069,10,22.62 MiB
+Stage 6 - Non-IID FedAvg,0.997884 ± 0.001349,0.981891 ± 0.000196,10,22.62 MiB
+Stage 6 - Non-IID FedProx,0.997619 ± 0.001714,0.981892 ± 0.000192,10,22.62 MiB
